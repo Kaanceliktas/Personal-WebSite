@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+  text-align: center;
+  top: 100px;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  font-size: 5.625rem; /* 100%= 16px= 1em so for 90px=> 90/16=562.5*/ /*rem=root M*/
+  margin: 2.6rem auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+  /* width: 10%;
+  margin: 0 auto 0 auto; #to center it with width element
+  */
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container{ /* classes called as "." */
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 70px
+}
+.bottom-container{
+  background-color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  line-height: 3;
+  padding: 20px 0 20px 0;
+}
+.bottom-container p{
+  color: #EAF6F6;
+  font-size: 0.625rem;
+}
+.middle-container{
+  margin: 100px 0;
+}
+
+.My {
+  text-decoration: underline; /*metni düzenlemek için*/
+}
+img{
+  position: relative;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+a {
+  color: #11999E;
+}
+
+.skill-row{
+  width: 50%;
+  align-items: center;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.office-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.python-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.office-desc{
+/*  clear: left; think that as anti-float*/
+}
+
+.python-desc{
+}
+
+.btn {
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #11999E;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #17c9cf;
+  text-decoration: none;
+}
+
+.contact-me{
+  margin: 30px;
+}
+.contact-me .btn{
+  margin-top: 30px;
+}
+.footer-link{
+  margin: auto 3rem auto 3rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-link:hover{
+  color: #FFFF;
+}
+
+.profile{
+  width: 30%;
+  margin: 10px auto 10px auto;
+  line-height: 2;
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.contact-p{
+  width: 30%;
+  margin: 50px auto 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+  border-top: 10px dotted #EAF6F6;
+  width: 5%;
+  margin: 5rem auto 5rem auto;
+}
+/*
+p{
+  display: inline; to change the format of paragraphs
+  display: inline-block; to change the format and width of paragraphs
+  display: none; it behaves like you delete from the html, actually just setting hide
+  visibility: hidden; it behaves like there is a hidden element but it keeps it's place
+}
+
+.bottom-container{
+
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+
+}
+.middle-container{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+*/
+
+/* height:200px; ---- weight:200px; #yükseklik ve genişlik için
+   padding: 20px; #yazı ile kutu arasındaki dolgu
+   border: 20px; #kutunun çevreleyen çerçeve
+   margin:20px; #kutunu etrafına açacağı mesafe
+
+   */
